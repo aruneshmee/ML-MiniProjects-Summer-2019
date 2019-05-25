@@ -61,4 +61,4 @@ sample_passengers = scaler.transform(sample_passengers)
 print(model.predict(sample_passengers))
 
 # Probabilities that led to these predictions
-print(model.predict_proba(sample_passengers))
+print(model.predict_proba(sample_passengers)) 
